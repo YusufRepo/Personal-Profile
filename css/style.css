@@ -1,0 +1,33 @@
+/* Default (Dark Theme) */
+body {
+  background-color: #1E201E; /* Warna latar gelap */
+  color: white; /* Warna teks default */
+}
+
+/* Light Theme */
+body.light-theme {
+  background-color: #ffffff; /* Warna latar terang */
+  color: #000000; /* Warna teks gelap */
+}
+
+/* Warna khusus untuk navbar */
+.navbar.light-theme {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* Default Dark Theme */
+.navbar .fab {
+  color: white;
+}
+
+/* Light Theme */
+.light-theme .navbar .fab {
+  color: black;
+}
+
+
+/*  */
+.button.light-theme {
+  color: #000000
+}
